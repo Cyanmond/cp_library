@@ -25,13 +25,12 @@ template <int MOD> class static_modint {
 
     constexpr int val() const noexcept { return value; }
 
-    // pow, inv
-    constexpr self pow(i64 exp) const noexcept {
+    constexpr self pow(i64 n) const noexcept {
         self ret(1), mul(*this);
-        while (exp > 0) {
-            if (exp & 1) ret *= mul;
+        while (n > 0) {
+            if (n & 1) ret *= mul;
             mul *= mul;
-            exp >>= 1;
+            n >>= 1;
         }
         return ret;
     }
