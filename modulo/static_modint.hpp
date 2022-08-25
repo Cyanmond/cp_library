@@ -82,4 +82,5 @@ template <int MOD> class static_modint {
 };
 
 using modint998244353 = static_modint<998244353>;
+using modint1000000007 = static_modint<1000000007>;
 } // namespace cpl
