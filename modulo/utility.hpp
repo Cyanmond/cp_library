@@ -1,4 +1,5 @@
 #pragma once
+#include <cassert>
 
 namespace cpl {
 template <typename T> constexpr T rem_euclid(T value, const T mod) {
