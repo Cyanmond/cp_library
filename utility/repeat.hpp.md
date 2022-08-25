@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':warning:'
+    path: modulo/fp_binomial.hpp
+    title: fp_binomial
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
@@ -60,7 +63,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: utility/repeat.hpp
-  requiredBy: []
+  requiredBy:
+  - modulo/fp_binomial.hpp
   timestamp: '2022-08-25 22:43:44+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

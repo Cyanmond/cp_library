@@ -60,6 +60,9 @@ data:
   - name: modulo
     pages:
     - icon: ':warning:'
+      path: modulo/fp_binomial.hpp
+      title: fp_binomial
+    - icon: ':warning:'
       path: modulo/static_modint.hpp
       title: modulo/static_modint.hpp
     - icon: ':warning:'
